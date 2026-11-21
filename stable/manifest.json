@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "0.0.8",
+  "version": "0.0.9",
   "channel": "stable",
-  "name": "Songlet 0.0.8",
-  "notes": "## 新功能\n- feat(admission): 支持 TUN 抢占时绑定物理出口\n\n## 修复\n- fix(ci): 冒烟任务在部分发布时仍执行\n",
-  "publishedAt": "2026-11-21T08:38:26Z",
+  "name": "Songlet 0.0.9",
+  "notes": "## 新功能\n- feat(license): 实现在线授权申请与申请人姓名展示\n- feat(license): 新增在线授权 Worker 与部署流水线\n",
+  "publishedAt": "2026-11-21T11:57:34Z",
   "artifacts": [
     {
-      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v0.0.8/songlet-windows-amd64.exe",
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v0.0.9/songlet-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 13512704,
+      "size": 13589504,
       "digestAlgo": "sha512",
-      "digest": "DVnLqZAepkhMj9l9mD91MJIy+9G5rhKgRcH1A/MvVmXOSRfwK+1YJF914phGLOIKaRmVnbPVq3NlH/wwwHEF+Q==",
+      "digest": "5CSYKAJF9syyS07Q4dVli2I0q2czfM0jD+3A0MO4r3Z1og32BGs+0vSJ+K4YwEpAKXD8uE2Dq/p6jOa+cZyR+Q==",
       "signatureAlgo": "ed25519ph",
-      "signature": "O6nbTKg9G4Qs9ZPKZu6mTUMMd1eQs5amzztRie0kWWxJ8RRikZfIpZvPsnIyIVHcuV8xtBlTiuMZE5cUvKMnBA=="
+      "signature": "EO3Bi1CzYCMMOhJJ3XP6wbl/DlQS/pBRBlosXpGMbi99/S5pFvi7ds8L0PyveXbOh8wUmgsY+S5Xx+x/bLBNCg=="
     }
   ]
 }
