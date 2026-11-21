@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.3",
+  "channel": "stable",
+  "name": "Songlet 签发端 1.0.3",
+  "notes": "## 新功能\n- feat(update): 精简进度弹窗并支持取消与关闭恢复\n",
+  "publishedAt": "2026-11-21T06:37:59Z",
+  "artifacts": [
+    {
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/issuer-v1.0.3/songlet-issuer-macos-arm64.zip",
+      "platform": "darwin",
+      "arch": "arm64",
+      "size": 4794317,
+      "digestAlgo": "sha512",
+      "digest": "76Y/UGXGnMd7plWKHNcIxNuJNbah+b+1SOcw4ccv0zKozeVuveXV9has5J7LFneCGjGBlIUxPGdL0w8sXmBk+Q==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "ZE8UEIQqxh8k73OEHPj2UwZ/AguguP2ooc/ekV0aJZNkGbirG9hyk98cFEMzeyZuGvzj/aWEhrM7MmSM1SxSAQ=="
+    },
+    {
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/issuer-v1.0.3/songlet-issuer-windows-amd64.exe",
+      "platform": "windows",
+      "arch": "amd64",
+      "size": 12505088,
+      "digestAlgo": "sha512",
+      "digest": "bBlnXINmE/qbIPkL2SC+5rpXgY2Ur7Prp/sO+3Y9VGi4tvmLTgbxhjTwZJe2x6qD6RoRtHv7g0+bMXMSutZilA==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "Zhagav7rxuayeIn0eCYRfLteRxfFJLNTM2/gfzOi+KOJFFPw1O88FOSgHLXD/HKORC6tW7Vlpqky9SVjxx7cDA=="
+    }
+  ]
+}
