@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "0.0.7",
+  "channel": "stable",
+  "name": "Songlet 0.0.7",
+  "notes": "## 新功能\n- feat(update): 精简进度弹窗并支持取消与关闭恢复\n- feat(app): 强制单实例运行并支持二次启动唤起主窗口\n- feat(admission): 检测深信服 Singress 并自动让位\n\n## 修复\n- fix(ci): 重试 Pages 瞬时 5xx 并补回 .nojekyll\n",
+  "publishedAt": "2026-11-21T06:28:16Z",
+  "artifacts": [
+    {
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v0.0.7/songlet-windows-amd64.exe",
+      "platform": "windows",
+      "arch": "amd64",
+      "size": 13466624,
+      "digestAlgo": "sha512",
+      "digest": "XJijnOpbsvjx/PVGnEqztBenH7lJa7wilzFt83KEeOmc3kmamPrDgfHFzs29OEdYPkxGKkgFALGLF4PONv+vMw==",
+      "signatureAlgo": "ed25519ph",
+      "signature": "UY3MACqpSpwH8XmBaR4rWZc2qHukDJ6PFawr4CnIk0a3QybOVebaQnlkUCdSAGTk00YHmHD4I4ahyBJPFPPIAA=="
+    }
+  ]
+}
