@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "channel": "stable",
-  "name": "Songlet 1.0.0",
-  "notes": "## 新功能\n- feat(license): 增加每日待授权邮件汇总\n- feat(license): 增加 Telegram 审批有效期档位\n",
-  "publishedAt": "2026-11-23T02:15:45Z",
+  "name": "Songlet 1.0.1",
+  "notes": "## 修复\n- fix(icon): 图标四角白底改为透明\n",
+  "publishedAt": "2026-11-23T06:02:04Z",
   "artifacts": [
     {
-      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.0.0/songlet-windows-amd64.exe",
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.0.1/songlet-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 13589504,
+      "size": 13518848,
       "digestAlgo": "sha512",
-      "digest": "BreATYLs/+ZijJu3od2+US6UR/vL4cZteInzHUNvDZtN6KgPbmBtLMEinbyfaPAaxH4FxkmbELNCbroKGo3zhg==",
+      "digest": "WUvsz86wsUvOnxg0NvbQF7yeHBkw+8yXKNuFzcE9wrZaJwJZfUWMtYXkrjveHV6Omz92NeELTnQtZAjnQ9nrMw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "YPF+IWlRG7KCo34iq2QV6BuqREgxLqEEmydp2cVEnfEJ5ZhoWTmr1RcpYHfYM5W/+pFWaMcQtuJvb52qevABDQ=="
+      "signature": "pgkHSMKtxpSKZezQflh3E1CGGILVx1jlNxUEP4heZ2bzvUnEOKCkqOMTuMSlM0+jgMOEI2TYbogRj0myPvwaAw=="
     }
   ]
 }
