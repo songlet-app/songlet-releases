@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "0.0.9",
+  "version": "1.0.0",
   "channel": "stable",
-  "name": "Songlet 0.0.9",
-  "notes": "## 新功能\n- feat(license): 实现在线授权申请与申请人姓名展示\n- feat(license): 新增在线授权 Worker 与部署流水线\n",
-  "publishedAt": "2026-11-21T11:57:34Z",
+  "name": "Songlet 1.0.0",
+  "notes": "## 新功能\n- feat(license): 增加每日待授权邮件汇总\n- feat(license): 增加 Telegram 审批有效期档位\n",
+  "publishedAt": "2026-11-23T02:15:45Z",
   "artifacts": [
     {
-      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v0.0.9/songlet-windows-amd64.exe",
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.0.0/songlet-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
       "size": 13589504,
       "digestAlgo": "sha512",
-      "digest": "5CSYKAJF9syyS07Q4dVli2I0q2czfM0jD+3A0MO4r3Z1og32BGs+0vSJ+K4YwEpAKXD8uE2Dq/p6jOa+cZyR+Q==",
+      "digest": "BreATYLs/+ZijJu3od2+US6UR/vL4cZteInzHUNvDZtN6KgPbmBtLMEinbyfaPAaxH4FxkmbELNCbroKGo3zhg==",
       "signatureAlgo": "ed25519ph",
-      "signature": "EO3Bi1CzYCMMOhJJ3XP6wbl/DlQS/pBRBlosXpGMbi99/S5pFvi7ds8L0PyveXbOh8wUmgsY+S5Xx+x/bLBNCg=="
+      "signature": "YPF+IWlRG7KCo34iq2QV6BuqREgxLqEEmydp2cVEnfEJ5ZhoWTmr1RcpYHfYM5W/+pFWaMcQtuJvb52qevABDQ=="
     }
   ]
 }
