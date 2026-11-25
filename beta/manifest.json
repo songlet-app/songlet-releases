@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.2-beta.1",
+  "version": "1.1.0-beta.1",
   "channel": "beta",
-  "name": "Songlet 1.0.2-beta.1",
-  "notes": "## 新功能\n- feat(plugin): 增加签名插件框架与插件页\n- feat(license): 增加每日待授权邮件汇总\n- feat(license): 增加 Telegram 审批有效期档位\n- feat(license): 实现在线授权申请与申请人姓名展示\n- feat(license): 新增在线授权 Worker 与部署流水线\n- feat(admission): 支持 TUN 抢占时绑定物理出口\n- feat(update): 精简进度弹窗并支持取消与关闭恢复\n- feat(app): 强制单实例运行并支持二次启动唤起主窗口\n- feat(admission): 检测深信服 Singress 并自动让位\n- feat(admission): 状态面板展示在线计时重置时间与原因\n- feat(issuer): 自绘日期选择器与代理方式下拉\n- feat(update): 支持应用内配置更新代理\n- feat(logging): 完善生产环境日志、崩溃捕获与诊断入口\n- feat(release): 签发端改用 dmg 分发并支持整包 .app 更新\n- feat(update): 优化更新弹窗与关于页交互\n- feat(update): 签发端支持应用内更新\n- feat(policy): 按码值展示规则语义标签\n- feat(release): 支持客户端与签发端独立或合并发布\n- feat(admission): 完善准入续租与重定向恢复并提示 Portal 认证\n- feat: 增加桌面授权签发工具并归档提案\n- feat: 增加客户端自动更新与发布流水线\n- feat: 关闭窗口询问与系统托盘常驻\n- feat: 增加独立图形签发工具并用 git-crypt 托管签发私钥\n- feat: 增加机器绑定离线授权与签发工具\n- feat: 只读展示 AC 下发的准入策略\n\n## 修复\n- fix(plugin): Windows 下跳过 Unix 可执行位断言\n- fix(plugin): 修复 Windows 测试并提升版本至 1.0.2\n- fix(plugin): 保存设置后刷新插件列表状态\n- fix(license): 将运行期重检缩短至 5 秒并节流水印写入\n- fix(icon): 图标四角白底改为透明\n- fix(ci): 冒烟任务在部分发布时仍执行\n- fix(ci): 重试 Pages 瞬时 5xx 并补回 .nojekyll\n- fix(issuer): 日期输入按本机时区解释\n- fix(update): 下载失败后重试不再丢失更新窗口\n- fix(release): 构建前生成签发端 bundle 所需的 icons.icns\n- fix: 统一托盘与 Icon Composer 图标为 Songlet logo\n- fix: 合并重复重连请求并完善状态反馈\n\n## 优化\n- refactor: 准入发现固定走 sentinel，移除系统代理探测\n",
-  "publishedAt": "2026-11-24T00:59:00Z",
+  "name": "Songlet 1.1.0-beta.1",
+  "notes": "## 新功能\n- feat(plugin): 增加插件操作窗口与页面入口\n- feat(activation): 支持按机器码自动恢复已批准授权\n- feat(plugin): 支持插件使用说明并内嵌查看\n\n## 修复\n- fix(plugin): 区分环境启动失败并限制更新重试\n- fix(admission): 出口探测失败时识别未登录 Portal\n\n## 优化\n- style(ui): 首页移除 SONGLET 旁的 P0 阶段标记\n",
+  "publishedAt": "2026-11-25T13:02:12Z",
   "artifacts": [
     {
-      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.0.2-beta.1/songlet-windows-amd64.exe",
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.1.0-beta.1/songlet-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 13872640,
+      "size": 13950464,
       "digestAlgo": "sha512",
-      "digest": "wtKJGDG4oHpQzVnNuP3Z6f3SxnXO6VDyBJOf5DFibtaMwYK9R+5acBLk2+ExXCRgpVYejc8KzCaKGA9v3yyIXw==",
+      "digest": "sG87T9somHbso5MB6hWS6zOa2TuJ4zAblYkubF20d4xjo2Y8BO8wdfUcrGz9CaUmSc3nb3oobxiQeI85HERIsw==",
       "signatureAlgo": "ed25519ph",
-      "signature": "YbzXDNzs+KDvOuB3vpgpPH3u2pJa/qQbMEbuKiC/S9Ex2fEdV04AL92jJUTPQla/mlUrFrr/8lr8uLyXWPq7CQ=="
+      "signature": "a8rlGAOx0liLnfgs19cn+oICXNK619GcxPEsfY8vL5497AjYRwecT9Iq6O/G0vykfr4/3DVgeePFJWP1a6h9Cw=="
     }
   ]
 }
