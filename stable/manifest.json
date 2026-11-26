@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "channel": "stable",
-  "name": "Songlet 1.1.1",
-  "notes": "## 新功能\n- feat(admission): 增加门户自动登录与凭据设置\n",
-  "publishedAt": "2026-11-26T02:45:50Z",
+  "name": "Songlet 1.1.2",
+  "notes": "## 修复\n- fix(tray): macOS 菜单栏改用透明单色模板图标\n- fix(plugin): 索引刷新失败时提示并合并检查更新入口\n",
+  "publishedAt": "2026-11-26T08:27:44Z",
   "artifacts": [
     {
-      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.1.1/songlet-windows-amd64.exe",
+      "url": "https://github.com/songlet-app/songlet-releases/releases/download/client-v1.1.2/songlet-windows-amd64.exe",
       "platform": "windows",
       "arch": "amd64",
-      "size": 14161408,
+      "size": 14162432,
       "digestAlgo": "sha512",
-      "digest": "8WkrctwgfQxGiLhH6tMqxwYnuPHmBBfKVpYL/SWzO+KbFv58YF41O2uOcnBIoUjLpTXk/VhYRaCAkVbMYT8vEQ==",
+      "digest": "UhTsEyMTqhCIQ6HetLLjrR99BzbD+y6EEjbY7oshHo/524BZ55nzlqvMrpNuGZPOTVmWddMj+gY5Azllrm9sLA==",
       "signatureAlgo": "ed25519ph",
-      "signature": "uHy4HFKg7wv97gSFflxXcfwm4DQ879tBH9I26Uh8acLSAipB0YrecLnXAaGWYOlg67qULQHmIEKRjRa14Y5OCA=="
+      "signature": "53x2kW7g1pIFPVDvB7HqiJN3mi+MgqOq+0L+DzxqHBkJUMAfGrMPUKsJeZpfdwgZlesGGwFnbpsNGgZqKBjOCA=="
     }
   ]
 }
